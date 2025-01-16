@@ -1,5 +1,5 @@
 const CLIENT_ID = '162284798849-4fsu179qh8cvf4l5md3oh9d6skdgubjq.apps.googleusercontent.com';
-        const LINK_GET_TOKEN = `https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile&response_type=token&redirect_uri=http://127.0.0.1:5500/sign-in.html&client_id=${CLIENT_ID}`;
+        const LINK_GET_TOKEN = `https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile&response_type=token&redirect_uri=https://taydoedu.github.io/v2/sign-in.html&client_id=${CLIENT_ID}`;
     
         document.addEventListener("DOMContentLoaded", () => {
             const signBtn = document.querySelector(".sign-btn");
