@@ -3,7 +3,7 @@ const getToken = () => {
 };
 
 const redirectToSignIn = () => {
-    window.location.href = 'sign-in.html';
+    window.location.href = 'https://taydoedu.github.io/v2/sign-in.html';
 };
 
 const accessToken = getToken();
